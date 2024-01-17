@@ -27,11 +27,11 @@ export default function RootLayout({
                 <h2 className="mb-2">Catch-all routes [[...slug]]</h2>
                 <ul className="ml-4 underline text-blue-600">
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/">✅ Home</Link>
                   </li>
                   <li>
                     <Link href="/article/some-article-name/ac-1240123">
-                      /article/some-article-name/ac-1240123
+                      ✅ /article/some-article-name/ac-1240123
                     </Link>
                   </li>
                 </ul>
@@ -41,23 +41,23 @@ export default function RootLayout({
                 <ul className="ml-4 underline text-blue-600">
                   <li>
                     <Link href="/parallel-route/section-name-a">
-                      Just Default A (/parallel-route/section-name-a)
+                      ✅ Just Default A (/parallel-route/section-name-a)
                     </Link>
                   </li>
                   <li>
                     <Link href="/parallel-route/section-name-b">
-                      Just Default B (/parallel-route/section-name-b)
+                      ✅ Just Default B (/parallel-route/section-name-b)
                     </Link>
                   </li>
                   <li>
                     <Link href="/parallel-route/section-name-a/part-name-a">
-                      Default A + slot:part A
+                      ✅ Default A + slot:part A
                       (/parallel-route/section-name-a/part-name-a)
                     </Link>
                   </li>
                   <li>
                     <Link href="/parallel-route/section-name-a/part-name-b">
-                      Default A + slot:part B
+                      ✅ Default A + slot:part B
                       (/parallel-route/section-name-a/part-name-b)
                     </Link>
                   </li>
