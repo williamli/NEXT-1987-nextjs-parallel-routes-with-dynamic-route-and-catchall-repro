@@ -61,6 +61,12 @@ export default function RootLayout({
                       (/parallel-route/section-name-a/part-name-b)
                     </Link>
                   </li>
+                  <li>
+                    <Link href="/parallel-route/section-name-b/part-name-c">
+                      ✅ Default B + slot:part C
+                      (/parallel-route/section-name-b/part-name-c)
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
