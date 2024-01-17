@@ -1,4 +1,4 @@
-export default function PlaylistLayout({
+export default function Layout({
   children,
   part,
 }: {

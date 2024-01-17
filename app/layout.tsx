@@ -27,11 +27,11 @@ export default function RootLayout({
                 <h2 className="mb-2">Catch-all routes [[...slug]]</h2>
                 <ul className="ml-4 underline text-blue-600">
                   <li>
-                    <Link href="/">Home</Link>
+                    <Link href="/en">✅ Home (/en)</Link>
                   </li>
                   <li>
-                    <Link href="/article/some-article-name/ac-1240123">
-                      /article/some-article-name/ac-1240123
+                    <Link href="/en/article/some-article-name/ac-1240123">
+                      ✅ /en/article/some-article-name/ac-1240123
                     </Link>
                   </li>
                 </ul>
@@ -40,25 +40,25 @@ export default function RootLayout({
                 <h2 className="mb-2">Parallel routes</h2>
                 <ul className="ml-4 underline text-blue-600">
                   <li>
-                    <Link href="/parallel-route/section-name-a">
-                      Just Default A (/parallel-route/section-name-a)
+                    <Link href="/en/parallel-route/section-name-a">
+                      ✅ Just Default A (/en/parallel-route/section-name-a)
                     </Link>
                   </li>
                   <li>
-                    <Link href="/parallel-route/section-name-b">
-                      Just Default B (/parallel-route/section-name-b)
+                    <Link href="/en/parallel-route/section-name-b">
+                      ✅ Just Default B (/en/parallel-route/section-name-b)
                     </Link>
                   </li>
                   <li>
-                    <Link href="/parallel-route/section-name-a/part-name-a">
-                      Default A + slot:part A
-                      (/parallel-route/section-name-a/part-name-a)
+                    <Link href="/en/parallel-route/section-name-a/part-name-a">
+                      ❌ Default A + slot:part A
+                      (/en/parallel-route/section-name-a/part-name-a)
                     </Link>
                   </li>
                   <li>
-                    <Link href="/parallel-route/section-name-a/part-name-b">
-                      Default A + slot:part B
-                      (/parallel-route/section-name-a/part-name-b)
+                    <Link href="/en/parallel-route/section-name-a/part-name-b">
+                      ❌ Default A + slot:part B
+                      (/en/parallel-route/section-name-a/part-name-b)
                     </Link>
                   </li>
                 </ul>

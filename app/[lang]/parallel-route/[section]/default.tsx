@@ -1,12 +1,13 @@
 export default function Page({
-  params: { section },
+  params: { lang, section },
 }: {
-  params: { section: string };
+  params: { lang: string; section: string };
 }) {
   console.log({ section });
 
   return (
     <main>
+      <p>lang: {lang}</p>
       <p>Section: {section}</p>
     </main>
   );
